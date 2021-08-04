@@ -1,0 +1,13 @@
+{
+  "name": "createwallettron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tronweb": "^3.0.0"
+  },
+  "scripts": {
+    "start": "nodemon node index.js",
+    "deploy": "git add . && git commit -m :rocket: && git push -u origin master"
+  }
+}
