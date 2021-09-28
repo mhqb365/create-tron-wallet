@@ -7,7 +7,7 @@ async function checkBeauty(address) {
   for (let i = 0; i < config.conditions.length; i++) {
     if (
       String(address.slice(-config.length))
-        .toLowerCase()
+        // .toLowerCase()
         .search(config.conditions[i].trim()) >= 0
     )
       result = true;
